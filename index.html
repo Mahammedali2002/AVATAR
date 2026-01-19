@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar</title>
+
+    <!-- Three.js importmap -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <!-- CSS apart -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="ui">
+      <div class="top">
+        <div class="elements-ui">
+          <div class="el earth"></div>
+          <div class="el fire"></div>
+          <div class="el water"></div>
+          <div class="el air"></div>
+        </div>
+      </div>
+
+      <div class="bottom pill"></div>
+
+      <div class="minimap">
+        <div class="ring"></div>
+        <div class="needle"></div>
+      </div>
+    </div>
+
+    <!-- JS apart -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

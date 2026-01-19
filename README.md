@@ -40,14 +40,6 @@ Geen installatie van externe pakketten vereist. Je hebt alleen een moderne webbr
 - **JavaScript**
 - **Three.js**
 
-## Voorbeeld
-
-```html
-<!-- index.html (fragment) -->
-<div id="avatar-container"></div>
-<script src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
-<script src="main.js"></script>
-```
 
 ## Bijdragen
 
